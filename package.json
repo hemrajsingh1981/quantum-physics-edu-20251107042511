@@ -1,0 +1,24 @@
+{
+  "name": "quantum-physics-edu",
+  "version": "1.0.0",
+  "description": "An educational application to teach quantum physics concepts.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "build": "parcel build src/index.html --dist-dir dist",
+    "start": "parcel src/index.html"
+  },
+  "keywords": [
+    "quantum physics",
+    "education",
+    "p5.js",
+    "gsap"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "p5": ">=1.0.0"
+  },
+  "devDependencies": {
+    "parcel": ">=2.0.0"
+  }
+}
